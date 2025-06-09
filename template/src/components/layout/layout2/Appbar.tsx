@@ -26,11 +26,11 @@ export default function AppBar2() {
             />
           </Link>
           <div className="flex flex-col items-start gap-1 px-5 py-1 bg-[#dae6ef] text-[#294172] rounded-[5px] h-auto">
-            <div className="w-[67.76px] mt-[-1.00px] [text-shadow:0px_1px_4px_#ffffffb2] [font-family:'Inter',Helvetica] font-normal text-xs tracking-[0] leading-[normal]">
+            <div className="w-[67.76px] mt-[-1.00px] [text-shadow:0px_1px_4px_#ffffffb2] font-normal text-xs tracking-[0] leading-[normal]">
               Module
             </div>
 
-            <div className="w-fit [text-shadow:0px_1px_4px_#ffffffb2] [font-family:'Inter',Helvetica] font-bold text-sm tracking-[0] leading-[normal]">
+            <div className="w-fit [text-shadow:0px_1px_4px_#ffffffb2] font-bold text-sm tracking-[0] leading-[normal]">
               USER MANAGEMENT
             </div>
           </div>
@@ -68,11 +68,11 @@ export default function AppBar2() {
           </Avatar>
 
           <div className="flex flex-col items-start justify-center">
-            <div className="[font-family:'Inter',Helvetica] font-bold text-white text-sm tracking-[0] leading-[26px] whitespace-nowrap">
+            <div className="font-bold text-white text-sm tracking-[0] leading-[26px] whitespace-nowrap">
               Mr. David Nguyen
             </div>
 
-            <div className="-mt-1 [font-family:'Inter',Helvetica] font-normal text-white text-xs tracking-[0] leading-6 whitespace-nowrap">
+            <div className="-mt-1 font-normal text-white text-xs tracking-[0] leading-6 whitespace-nowrap">
               Home Company
             </div>
           </div>

@@ -59,38 +59,38 @@ const relatedTable = () => (
     <Table>
       <TableHeader className="bg-[#d9e6ee] border border-solid border-[#d9d9d9]">
         <TableRow>
-          <TableHead className="w-[70px] [font-family:'Inter',Helvetica] font-medium text-sm leading-[26px]">
+          <TableHead className="w-[70px] font-medium text-sm leading-[26px]">
             Index
           </TableHead>
           <TableHead className="w-[152px]">
             <div className="flex flex-col">
-              <span className="[font-family:'Inter',Helvetica] font-medium text-sm leading-[26px]">
+              <span className="font-medium text-sm leading-[26px]">
                 Borrower Name
               </span>
-              <span className="[font-family:'Inter',Helvetica] font-medium text-sm leading-[26px] -mt-1">
+              <span className="font-medium text-sm leading-[26px] -mt-1">
                 Loan ID
               </span>
             </div>
           </TableHead>
           <TableHead className="w-[169px]">
             <div className="flex flex-col">
-              <span className="[font-family:'Inter',Helvetica] font-medium text-sm leading-[26px] whitespace-nowrap">
+              <span className="font-medium text-sm leading-[26px] whitespace-nowrap">
                 Lender
               </span>
-              <span className="[font-family:'Inter',Helvetica] font-medium text-sm leading-[26px] whitespace-nowrap -mt-1">
+              <span className="font-medium text-sm leading-[26px] whitespace-nowrap -mt-1">
                 Interest Rate
               </span>
             </div>
           </TableHead>
           <TableHead className="w-[155px]">
-            <span className="[font-family:'Inter',Helvetica] font-medium text-sm leading-[26px] whitespace-nowrap">
+            <span className="font-medium text-sm leading-[26px] whitespace-nowrap">
               Process
             </span>
           </TableHead>
-          <TableHead className="w-[136px] [font-family:'Inter',Helvetica] font-medium text-sm leading-[26px]">
+          <TableHead className="w-[136px] font-medium text-sm leading-[26px]">
             Status
           </TableHead>
-          <TableHead className="w-[104px] [font-family:'Inter',Helvetica] font-medium text-sm leading-[26px]">
+          <TableHead className="w-[104px] font-medium text-sm leading-[26px]">
             Action
           </TableHead>
         </TableRow>

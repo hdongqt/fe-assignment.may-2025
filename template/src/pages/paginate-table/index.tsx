@@ -18,7 +18,7 @@ import {
   PaginationPrevious,
 } from "@/components/ui/pagination";
 import { Button } from "@/components/ui/button";
-import { ArrowUpDown, ArrowUp, ArrowDown, X } from "lucide-react";
+import { ArrowUpDown, ArrowUp, ArrowDown, X, Inbox } from "lucide-react";
 import {
   Select,
   SelectContent,
@@ -148,7 +148,7 @@ export default function PaginateTable() {
   };
 
   return (
-    <div className="max-w-5xl mx-auto py-8 px-4">
+    <div className="max-w-7xl mx-auto py-8 px-4">
       <div className="flex justify-between items-center mb-6">
         <h1 className="text-2xl font-bold">Customer Data</h1>
         <Button variant="outline" onClick={() => dispatch(clearFilters())}>
@@ -217,6 +217,19 @@ export default function PaginateTable() {
                   ))}
                 </TableRow>
               ))}
+              {paginatedData.length === 0 && (
+                <TableRow>
+                  <TableCell
+                    colSpan={columns.length}
+                    className="py-2 px-4 text-sm "
+                  >
+                    <div className="flex justify-center flex-col items-center my-2">
+                      <span className="text-lg mb-2">No data available</span>
+                      <Inbox size={35} className="text-gray-600" />
+                    </div>
+                  </TableCell>
+                </TableRow>
+              )}
             </TableBody>
           </Table>
         </div>
